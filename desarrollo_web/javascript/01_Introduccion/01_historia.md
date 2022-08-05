@@ -6,6 +6,7 @@
 
 3. Originalmente Javascript se ejecutaba del lado del cliente la parte visual que permite a las personas interactuar con la aplicacion normalmente llamado ***frontend***, pero actualmente se puede ejecutar desde un servidor o la parte que resuelve las peticiones que hace el cliente normalmente llamada ***backend*** y esto gracias a Node.js 
 4. Es un lenguaje que actualmente esta recibiendo mejoras y actualizaciones.
+5. Es multiplataforma, orientado a objetos, con sintaxis y caracteristicas muy simples, interpretado.
 
 ---
 

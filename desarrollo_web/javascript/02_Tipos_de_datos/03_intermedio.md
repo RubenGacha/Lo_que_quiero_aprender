@@ -21,7 +21,7 @@ var variable=undefined
 typeof(variable) //devuelve undefined
 ```
 ## null
-Es un tipo de dato que representa que deseamos que la variable este vacia sea inicializado con un valor nulo. 
+Es un tipo de dato que representa que deseamos que la variable este vacia sea inicializado con un valor nulo, o que tiene el valor null|. 
 
 ```javascript
 var variable=null
