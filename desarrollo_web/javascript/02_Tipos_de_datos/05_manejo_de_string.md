@@ -27,3 +27,45 @@ una forma de que se concatenen los numeros cuando se inicia la expresion con num
 */
 var var_4=""+1+2+"ruben" //devuelve 12ruben
 ```
+
+## Metodos
+
+1. los metodos se pueden distinguir porque se tiene que usar parentisis.
+2. Todos los metodos string devuelven una cadena nueva, la cadena original no sera modificada.
+
+| Metodos | Descripcion |
+| --- | --- |
+| toUpperCase() | Devuelve la cadena en mayusculas |
+| toLowerCase() | Devuelve la cadena a minuscula |
+| indexOf(String) | Devuelve la posicion en la que se encuentra el string, si no lo encuentra devuelve -1 |
+|replace(valor a buscar, valor nuevo)| Remplaza el fragmento de la cadena que le digamos y pone el nuevo valor|
+|substring(inicio[,fin])| Extrae los caracteres desde inicio hasta fin (el final no se incluye) |
+|slice(inicio[,fin]) | es igual que substring solo que admite valores negativos, si secoloca un negativo  comenzara a contar desde la ultima letra del string. ejemplo -6 contara los ultimos 6 caracteres. |
+|trim()| Elimina los espacios al inicio y al final de la cadena |
+|startsWith(valor[,inicio]) | sirve para saber si la cadena empieza con ese valor. devuelve true o false |
+|endsWith(valor[,inicio]) | sirve para saber si la cadena termina con ese valor. devuelve true o false |
+|includes(valor[,inicio]) | busca el valor en la cadena devuelve true o false |
+|repeat(cantidad)|repite el numero de veces que le indiquemos de un string|
+
+## Propiedades
+
+| Propiedad | Descripcion |
+| --- | --- |
+| length | Devuelve la longitud de la cadena |
+
+
+## Template String
+
+los template string estan para facilitar la salida de texto cuando conbinamos variables y texto. 
+
+se debe usar comilla invertida que se saca con `alt`+ `96` y dentro de las comillas ya podemos poner variables o cualquier operacion javascript dentro de un simbolo dolar y dos llaves **${}**
+
+```javaScript
+console.log("hola tu nombre es: " + nombre + " " + apellido+".");
+
+console.log(`hola tu nombre es: ${nombre} ${apellido}.`)
+```
+
+## Documentacion 
+
+para mas informacion de los string con mas metodos y propiedades mozilla nos da la siguiente [Documentacion](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String)

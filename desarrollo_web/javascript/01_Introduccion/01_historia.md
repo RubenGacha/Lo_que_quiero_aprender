@@ -6,7 +6,8 @@
 
 3. Originalmente Javascript se ejecutaba del lado del cliente la parte visual que permite a las personas interactuar con la aplicacion normalmente llamado ***frontend***, pero actualmente se puede ejecutar desde un servidor o la parte que resuelve las peticiones que hace el cliente normalmente llamada ***backend*** y esto gracias a Node.js 
 4. Es un lenguaje que actualmente esta recibiendo mejoras y actualizaciones.
-5. Es multiplataforma, orientado a objetos, con sintaxis y caracteristicas muy simples, interpretado.
+
+
 
 ---
 
@@ -18,4 +19,3 @@
 6.  2009 - ECMAScript 5 - Se realiza las actualizaciones necesarias para ser un lenguaje bien desarrollado fue estandar hasta 2015.
 7. 2011 - ECMAScript 5.1 - correccion de fallos
 8. 2015 - ECMAScript 6
-

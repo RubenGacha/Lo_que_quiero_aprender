@@ -12,16 +12,23 @@ vidas=3
 ```
 ## variables declaradas con var
 
+1. virtualmente declara las variables al inicio del documento, al inicio de lectura del algoritmo.
+2. 
+
 ## variables declaradas con let
+
+2. solo declara la variable cuando la encuentra en el documento, segun el algoritmo creado.
 
 ## constantes declaradas con const
 
 En algunos casos necesitamos que una variable no cambie su valor durante la ejecucion del algoritmo para esto se usan las constantes y para poder indicarle a javascript que queremos que la variable la trate como constante debemos decirle al momento de crear la variable, poniendo la palabra reservada **const** seguido del nombre de la variable, el simbolo igual y por ultimo el valor de la constante.
 
+1. por convencion o por buena practica se recomienda declarar las constantes en mayusculas
+
 Ejemplo:
 
 ```javascript
-const nombre="ruben"
+const NOMBRE="ruben"
 ```
 
 ## Declaracion de multiples variables

@@ -17,13 +17,29 @@ los operadores Aritméticos nos permite realizar operaciones basicas en javascri
 a=2
 b=3
 
-suma = a + b
-resta = a - b
-multiplicacion = a * b
-exponenciacion = a ** b
-division = a / b
-modulo = a % b
+suma = a + b //5
+resta = a - b //-1
+multiplicacion = a * b //6
+exponenciacion = a ** b //8
+division = a / b //0.6666
+modulo = a % b //2
 
+```
+
+javascript tiene el casting de datos de forma automatica si detecta que un String es un numero y se esta haciendo una operacion aritmetica.
+
+Ejemplo:
+
+```javascript
+a=2
+b="3"
+
+suma = a + b // lo concatena danonos 23
+resta = a - b // le hace casting a -1
+multiplicacion = a * b // le hace casting a 6
+exponenciacion = a ** b //le hace casting a 8
+division = a / b //le hace casting automatico 0.6666
+modulo = a % b //le hace casting automatico 2
 ```
 
 ## Uso de Incremeto y Decremento
