@@ -18,9 +18,20 @@ miFuncion(4,5);
 
 Aunque en forma cotidiana no se hace la diferencia sino la tratamos como si fuera lo mismo.
 
+## Argumentos Undefined, NULL
+
+### Undefined
+javascript no genera error si no se le pasan los argumentos necesarios para la funcion el trata los argumentos como **Undefined** por lo tanto seguira funcionando hasta que encuentre una operacion que no se pueda hacer con datos **Undefined**.
+
+### NULL
+
+javascript puede trabajar los argumentos con valor null si los parametros que le pasamos poseen este valor y fallara donde exista una operacion donde no se pueda hacer con datos null.
+
 ## Parametros Opcionales
 
-en algunos casos deseamos que nuestras funciones tengan parametros opcionales lo que permite invocarlas sin pasarle todos los argumentos, para esto se les da un valor por defecto al momento de crear la funcion. 
+en algunos casos deseamos que nuestras funciones tengan parametros opcionales lo que permite invocarlas sin pasarle todos los argumentos, para esto se les da un valor por defecto al momento de crear la funcion asignandoselo con un igual. 
+
+los parametros opcionales deben ir despues de todos los parametros obligatorios ya que si se colocan antes no funcionara bien los parametros opcionales.
 
 Ejemplo:
 

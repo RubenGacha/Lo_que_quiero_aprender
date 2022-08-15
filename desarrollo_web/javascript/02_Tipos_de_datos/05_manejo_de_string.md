@@ -46,7 +46,7 @@ var var_4=""+1+2+"ruben" //devuelve 12ruben
 |endsWith(valor[,inicio]) | sirve para saber si la cadena termina con ese valor. devuelve true o false |
 |includes(valor[,inicio]) | busca el valor en la cadena devuelve true o false |
 |repeat(cantidad)|repite el numero de veces que le indiquemos de un string|
-
+|.split([ caracter_Separacion ]) | permite separar un string por el caracter que le enviamos si no le pasamos un caracter de separacion lo separa por letras |
 ## Propiedades
 
 | Propiedad | Descripcion |

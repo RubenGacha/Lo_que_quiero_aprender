@@ -14,6 +14,23 @@ Ejemplo:
 
 //con parametros
 (function(a,b){
-    console.log(`suma: ${a+b}`)
+    console.log(`suma: ${ a+b }`)
 })(4,5);
+```
+tambien se usan este tipo de funciones para encapsular el codigo, dando un bloque de seguridad a este ya que desde afuera de este codigo no se puede acceder ya que son funciones anonimas y no tiene un valor para acceder a esta.
+
+
+## Funciones Recursivas
+
+En algunos casos se puede resolver problemas con funciones que se llamen asi mismas hasta que llegan a un caso minimo el mas conocido es la solucion de factoriales.
+
+Ejemplo:
+
+```javascript
+function factorial(n){
+    if(n>1){
+        n=n*factorial(n-1);
+    }
+    return n;
+}
 ```
