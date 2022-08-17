@@ -5,4 +5,5 @@
 3. los bloque estan encerrados en llaves {}
 4. no se recomienda declarar las variables con **var** se aconseja declararlas con **let**
 5. Se recomienda que las constantes esten en mayusculas.
-6. 
+6. Se recomienda que cuando se creen Evenytlistener se intente tomar el objeto padre para poder aplicar los mismos eventos a todos los hijos.
+7. 
