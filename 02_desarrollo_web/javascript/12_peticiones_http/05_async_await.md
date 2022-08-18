@@ -1,6 +1,6 @@
 # async y await
 
-nos permite hacer funciones ansincronas de forma nativa en javascript. para esto esta la palabra clave **async**.
+nos permite hacer funciones ansincronas de forma nativa en javascript. para esto esta la palabra clave **async** y lo que hace es indicarle que una funcion nos va a devolver una promesa.
 
 ## uso de async
 
@@ -17,22 +17,6 @@ const getName=async()=>{
 
 getName().then(console.log);
 ```
-
-aunque en este caso usamos un objeto promesa no es necesario ya que al usar **async** javascript la trata como una promesa. 
-
-```javascript
-const getName=async()=>{
-    
-    return new Promise((resolve,reject)=>{
-        setTimeout(()=>{
-            resolve("Dorian");
-        },3000);
-    });
-}
-
-getName().then(console.log);
-```
-
 
 El problema nace cuando se intenta usar una funcion que use una funcion asincronica, ya que esta funcion intenta resolver los datos que utilizan esta funcion que no ha sido resuelta ya que se ejecutan despues de llamar la funcion asincronica.
 
