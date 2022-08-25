@@ -55,3 +55,14 @@ Tema 2
 :::::
 :::::
 ```
+
+## details
+
+esta etiqueta nos permite agrupar datos y desplegarlos o ocultarlos cuando se da click, es como para leer mas de algo no permite 
+
+```HTML
+<details>
+    <summary>mas detalles</summary>
+    <p>aqui se escribe informacion que aumenta la informacion pero que no sea tan relevante para entender el articulo<p>
+</details>
+```

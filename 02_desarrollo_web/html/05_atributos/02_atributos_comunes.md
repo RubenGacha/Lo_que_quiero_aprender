@@ -56,3 +56,14 @@ es un atributo que nos permite guardar algun valor en la etiqueta HTML
 </body>
 
 ```
+
+## contenteditable
+
+nos permite hacer que el elemento que contiene el atributo sea editable, y es un atributo booleano.
+
+```HTML
+<body>
+    <h1 contenteditable>modificame</h1>
+</body>
+
+```

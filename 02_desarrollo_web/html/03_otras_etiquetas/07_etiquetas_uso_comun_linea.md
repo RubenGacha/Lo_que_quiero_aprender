@@ -31,3 +31,11 @@ en algunos casos donde los simbolos son usados por html debemos usar el codigo [
     </code>
 </pre>
 ```
+
+## abbr
+
+nos permite encerrar una palabra que a sido abreviada, se suele usar con el atributo **title** para que aparezca un mensaje cuando se pasa el mouse por encima.
+
+```HTML
+<abbr title="Kilometros">Km</abbr>
+```
