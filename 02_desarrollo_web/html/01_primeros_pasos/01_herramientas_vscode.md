@@ -4,3 +4,6 @@
 + Auto rename tag
 + auto close tag
 + prettier code formatter
++ live serve
++ bracker pair colorizer 2
++ 

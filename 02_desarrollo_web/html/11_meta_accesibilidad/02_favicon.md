@@ -38,3 +38,8 @@ el favicon es el logo que podemos incluir en nuestra pagina web para que funcion
 
 <meta name="theme-color" content="#ffffff">
 ```
+
+En el type de la etiqueta link tenemos varios typos dependiendo la imagen
+
++ type="image/png" => cuando es png
++ type="image/x-icon" => cuando es ico

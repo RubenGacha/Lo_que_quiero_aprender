@@ -49,3 +49,15 @@ for(let posicion in nombre){
     console.log(posicion)
 }
 ```
+
+## foreach
+
+este array nos permite recorrer un array de elementos y permite pasar varios parametros como el valor del elemento y el indice
+
+```javascript
+let nombre=["ruben","Dario","Dorian"];
+
+nombre.forEach((dato,index)=>{
+    console.log(`mi dato es ${dato} y la posicion es ${index}`);
+})
+```

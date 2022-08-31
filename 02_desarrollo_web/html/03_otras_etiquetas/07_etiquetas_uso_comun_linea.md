@@ -39,3 +39,11 @@ nos permite encerrar una palabra que a sido abreviada, se suele usar con el atri
 ```HTML
 <abbr title="Kilometros">Km</abbr>
 ```
+
+## canvas
+
+nos permite crear un lienzo donde podemos dibujar nace para dejar de usar flash. 
+
+```HTML
+<canvas>Tu navegador no soporta canvas</canvas>
+```

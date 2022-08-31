@@ -7,3 +7,5 @@
 + [generador de favicon](https://www.favicon-generator.org/) usando una imagen nos crea todas las imagenes he etiquetas que necesitamos para los diferentes dispositivos.
 + [imagenes libres](https://unsplash.com/es) nos permite descargar imagenes que se pueden usar ya que son libres para su uso
 + [imagenes svg libres](https://undraw.co/illustrations) nos permite descargar imagenes en formato svg que se pueden usar ya que son libres para su uso
++ [imagenes iconos svg](https://svgporn.com/) pagina que a vectorizado varios logos de uso libre pero con derechos de autor por las empresas.
++ 

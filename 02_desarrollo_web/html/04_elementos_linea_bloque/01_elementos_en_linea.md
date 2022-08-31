@@ -20,3 +20,4 @@ los elementos en linea solo ocupan el tamaño de su contenido por tal motivo si 
 + cite
 + q
 + code
++ canvas
