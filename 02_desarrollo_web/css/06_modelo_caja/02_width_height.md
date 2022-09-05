@@ -21,6 +21,7 @@ Ejemplo:
 ```
 
 ## maximos
+
 tanto para height como para width podemos indicarle el tamaño maximo que podran tener para que cuando se ajuste el navegador estos puedan adaptarse si se llega a un punto mas bajo que el maximo del elemento. 
 
 los valores que admiten pueden ser en pixeles o en porcentaje.
@@ -44,5 +45,15 @@ Ejemplo:
 .block{
     min-width:80%;
     min-height:200px;
+}
+```
+
+**NOTA**: se pueden usar min y max con su respectivo height o width cuando tienen medidas relativas.
+
+para hacer que le body ocupe como minimo toda la pantalla se usa 
+
+```css 
+body{
+    min-height:100vh;
 }
 ```

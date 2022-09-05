@@ -2,6 +2,8 @@
 
 debido al constante uso de algunos colores se les dio un nombre con esto se hace mas facil usarlos. 
 
+**Importante:** Recordar que existe el color "transparent"
+
 ## Rojos
 
 |name|hex code|rgb code|

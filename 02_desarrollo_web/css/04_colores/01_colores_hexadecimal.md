@@ -1,28 +1,40 @@
 # Colores Hexadecimal
 
-El primer formato que nos ofrece css para aplicar colores es el formato hexadecimal.
+la notacion hexadecimal es la mas comun en desarrollo web, se basa en los mismos principios que el RGB pero escritos en notacion hexadecimal.
 
-el cual tiene varias formas de crear el color que queremos
+El sistema hexadecimal es un sistema basado en 16 valores del 0 a 15 utiliza los digitos del 0 al 9 y las letras de la A a la F.
 
-## Codigo Hexadecimal
+en este tipo de notacion tambien necesitamos 256 valores.
 
-El codigo hexadecimal se compone de los colores **rojo (r)**, **verde (g)** y **azul (b)** en este caso se usa dos numeros por cada grupo de 0 a F, la sintaxis es **#RRGGBB**. 
+Se compone de 16 caracteres en parejas ya que 16*16=256
 
-Ejemplo:
+para indicar que vamos a usar notacion hexadecimal debemos usar el simbolo de hash/almohadilla # y a continuacion usaremos esta notacion por parejas.
+
+\#RRGGBB
 
 ```css
 p{
     color:#FF0088;
 } 
 ```
-## codigo hexadecimal Corto
 
-cuando la pareja de valores por cada color es el mismo podemos resumirla o hacerla mas corta colocando un solo valor por cada grupo, su sintaxis es **#RGB**
+cuando una pareja usa el mismo valor se puede omitir el segundo valor, siempre que se haga en las 3 parejas.
 
-Ejemplo:
+rgb(255,255,255) -> #FFFFFF -> #FFF 
+rgb(0,0,0) -> #000000 -> #000
 
 ```css
 p{
     color:#F08;
+} 
+```
+
+Tambien tenemos la opcion de usar transparencias en hexadecimal añadiendo un cuarto canal que sigue las mismas normas.
+
+rgb(0 0 0/ 0.5) -> #00000080 -> #0007
+
+```css
+p{
+    color:#F08F0878;
 } 
 ```
