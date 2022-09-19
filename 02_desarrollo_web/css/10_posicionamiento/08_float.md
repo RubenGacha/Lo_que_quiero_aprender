@@ -1,6 +1,6 @@
 # Float (flotada)
 
-Esta propiedad ubica un elemento al lado izquierdo o derecho de su contenedor, permitiendo a los elementos de texto y en linea aparecer a su costado. el elemento es removido del normal flujo de la pagina aunque aun sigue sinedo parte del flujo.
+Esta propiedad ubica un elemento al lado izquierdo o derecho de su contenedor, permitiendo a los elementos de texto y en linea aparecer a su costado. el elemento es removido del normal flujo de la pagina aunque aun sigue siendo parte del flujo.
 
 los valores pueden ser:
 
@@ -11,7 +11,7 @@ los valores pueden ser:
 + inline-end: El elemento debe flotar en el costado de termino de su bloque contenedor.
 
 ```css
-.contenedor{
+.item{
     float:left;
 }
 ```
@@ -23,7 +23,9 @@ cuando terminemos de usar cajas flotantes y queramos volver al diseño normal de
 + both: termina de colocar los objetos flotantes que se encuentren a ambos lados.
 
 ```css
-.contenedor{
+.item{
     clear:both;
 }
 ```
+
+NOTA: Se posiciona a la derecha o izquierda de su contenedor.

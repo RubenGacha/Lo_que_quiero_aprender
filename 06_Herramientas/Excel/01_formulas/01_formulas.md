@@ -23,3 +23,7 @@ se puede usar la propiedad de relleno para arrastrar la formula con doble click 
 toca copiar la formula en la celda vacia y volver a arrastrar la formula.
 
 ![rellenar](../0_img/relleno.gif)
+
+tambien se puede rellenar los campos si se selecciona un rango primero y luego se escribe la formula, una vez que se termine la formula se da `ctrl`+`enter` y el rango sera rellenado con la formula.
+
+![rellenar_rango](../0_img/colocar_formulas_en_rango.gif)
