@@ -38,3 +38,5 @@ despues de añadir estas claves se podra clonar el repositorio de forma correcta
 ```bash
 git clone git@githib.com***
 ```
+
+[mas informacion](https://www.ingeniusworlds.com/como-clonar-un-repositorio-de-github-con-ssh/)
